@@ -1,0 +1,15 @@
+{
+  "name": "employee-directory-server",
+  "version": "1.0.0",
+  "description": "Employee directory REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marissa Corrello",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -2,6 +2,7 @@
 node_modules
 *.log
 *.gz
+.eslintcache
 
 ./client/node_modules
 ./server/node_modules

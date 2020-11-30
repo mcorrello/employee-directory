@@ -13,21 +13,25 @@ The Employee Directory application is a webapp that shows current employees. It 
 - Database: SQLite3
    - DB used to easily spin up an in-memory database for testing
 
-## Run Locally
+## Running the Application Locally
  1. Run the server
     - Navigate to the `server` directory
+    - Run `npm install`
     - Run `npm start`
     - Server should start on port `8000`    
  2. Run the UI
     - Navigate to the `server` directory
+    - Run `npm install`
     - Run `npm start`
     - UI should start on port `3000`
 
-## For Production
+## Todo List For Production
 - Add authorization for delete/edit/add employees, so only authorized users can do each of those functions
-- Add logos and build out the menu structure
+- Add icons, logos, and build out the menu structure with any other information needed
 - Add production and deployment configuration, including a load balancer for the server/UI if needed depending on traffic 
 - Connect to a database that isn't in-memory
+- Add form validation - make sure junk data isn't submitted to the database
+- Add testing, especially on the server for the APIs
 
 
 ## API Endpoints Available from Server
